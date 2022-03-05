@@ -13,25 +13,25 @@
     <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
-    <link href="{{asset(admin/css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="{{asset('admin/css/font-face.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css')}}" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="vendor/animsition/animsition.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css')}}" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css')}}" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="{{asset('admin/css/theme.css')}}" rel="stylesheet" media="all">
 
 </head>
 
@@ -43,7 +43,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                            <img src="{{asset('admin/images/icon/logo.png')}}" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -158,7 +158,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="#">
-                    <img src="images/icon/logo.png" alt="Cool Admin" />
+                    <img src="{{asset('admin/images/icon/logo.png')}}" alt="Cool Admin" />
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -286,7 +286,7 @@
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
+                                                    <img src="{{asset('admin/images/icon/avatar-06.jpg')}}" alt="Michelle Moreno" />
                                                 </div>
                                                 <div class="content">
                                                     <h6>Michelle Moreno</h6>
@@ -296,7 +296,7 @@
                                             </div>
                                             <div class="mess__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
+                                                    <img src="{{asset('admin/images/icon/avatar-04.jpg')}}" alt="Diane Myers" />
                                                 </div>
                                                 <div class="content">
                                                     <h6>Diane Myers</h6>
@@ -318,7 +318,7 @@
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-06.jpg" alt="Cynthia Harvey" />
+                                                    <img src="{{asset('admin/images/icon/avatar-06.jpg')}}" alt="Cynthia Harvey" />
                                                 </div>
                                                 <div class="content">
                                                     <p>Meeting about new dashboard...</p>
@@ -327,7 +327,7 @@
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-05.jpg" alt="Cynthia Harvey" />
+                                                    <img src="{{asset('admin/images/icon/avatar-05.jpg')}}" alt="Cynthia Harvey" />
                                                 </div>
                                                 <div class="content">
                                                     <p>Meeting about new dashboard...</p>
@@ -336,7 +336,7 @@
                                             </div>
                                             <div class="email__item">
                                                 <div class="image img-cir img-40">
-                                                    <img src="images/icon/avatar-04.jpg" alt="Cynthia Harvey" />
+                                                    <img src="{{asset('admin/images/icon/avatar-04.jpg')}}" alt="Cynthia Harvey" />
                                                 </div>
                                                 <div class="content">
                                                     <p>Meeting about new dashboard...</p>
@@ -391,23 +391,23 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="{{asset('admin/images/icon/avatar-01.jpg')}}" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#">{{ Auth::user()->name }}</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="{{asset('admin/images/icon/avatar-01.jpg')}}" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">{{ Auth::user()->name }}</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">{{ Auth::user()->email }}</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -425,8 +425,15 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
-                                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
                                             </div>
                                         </div>
                                     </div>
@@ -730,7 +737,7 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="au-task__title">
-                                            <p>Tasks for John Doe</p>
+                                            <p>Tasks for Muhammad Rifki Fadhilah</p>
                                         </div>
                                         <div class="au-task-list js-scrollbar3">
                                             <div class="au-task__item au-task__item--danger">
@@ -813,7 +820,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                                    <img src="{{asset('admin/images/icon/avatar-02.jpg')}}" alt="John Smith">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -831,7 +838,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap online">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-03.jpg" alt="Nicholas Martinez">
+                                                                    <img src="{{asset('admin/images/icon/avatar-03.jpg')}}" alt="Nicholas Martinez">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -849,7 +856,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap online">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-04.jpg" alt="Michelle Sims">
+                                                                    <img src="{{asset('admin/images/icon/avatar-04.jpg')}}" alt="Michelle Sims">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -867,7 +874,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-05.jpg" alt="Michelle Sims">
+                                                                    <img src="{{asset('admin/images/icon/avatar-05.jpg')}}" alt="Michelle Sims">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -885,7 +892,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap online">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-04.jpg" alt="Michelle Sims">
+                                                                    <img src="{{asset('admin/images/icon/avatar-04.jpg')}}" alt="Michelle Sims">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -903,7 +910,7 @@
                                                         <div class="au-message__item-text">
                                                             <div class="avatar-wrap">
                                                                 <div class="avatar">
-                                                                    <img src="images/icon/avatar-05.jpg" alt="Michelle Sims">
+                                                                    <img src="{{asset('admin/images/icon/avatar-05.jpg')}}" alt="Michelle Sims">
                                                                 </div>
                                                             </div>
                                                             <div class="text">
@@ -926,7 +933,7 @@
                                                 <div class="au-chat-info">
                                                     <div class="avatar-wrap online">
                                                         <div class="avatar avatar--small">
-                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                            <img src="{{asset('admin/images/icon/avatar-02.jpg')}}" alt="John Smith">
                                                         </div>
                                                     </div>
                                                     <span class="nick">
@@ -939,7 +946,7 @@
                                                     <span class="mess-time">12 Min ago</span>
                                                     <div class="recei-mess__inner">
                                                         <div class="avatar avatar--tiny">
-                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                            <img src="{{asset('admin/images/icon/avatar-02.jpg')}}" alt="John Smith">
                                                         </div>
                                                         <div class="recei-mess-list">
                                                             <div class="recei-mess">Lorem ipsum dolor sit amet, consectetur adipiscing elit non iaculis</div>
@@ -986,28 +993,28 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="{{asset('admin/vendor/jquery-3.2.1.min.js')}}"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="{{asset('admin/vendor/bootstrap-4.1/popper.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/bootstrap-4.1/bootstrap.min.js')}}"></script>
     <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
+    <script src="{{asset('admin/vendor/slick/slick.min.js')}}">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="{{asset('admin/vendor/wow/wow.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/animsition/animsition.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js')}}">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="{{asset('admin/vendor/counter-up/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/counter-up/jquery.counterup.min.js')}}">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="{{asset('admin/vendor/circle-progress/circle-progress.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
+    <script src="{{asset('admin/vendor/chartjs/Chart.bundle.min.js')}}"></script>
+    <script src="{{asset('admin/vendor/select2/select2.min.js')}}">
     </script>
 
     <!-- Main JS-->
-    <script src="js/main.js"></script>
+    <script src="{{asset('admin/js//main.js')}}"></script>
 
 </body>
 
