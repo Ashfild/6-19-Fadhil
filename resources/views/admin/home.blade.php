@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('title', 'Muhammad Rifki Fadhilah | Dashboard')
 @section('content')
 <div class="main-content">
